@@ -24,4 +24,4 @@ This project applies machine learning to predict diabetes from symptoms entered 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/disease-prediction.git
+   git clone https://github.com/Ash-wika/disease-prediction.git
