@@ -1,24 +1,25 @@
-# Disease Prediction Based on Symptoms
+# Diabetes Prediction Based on Symptoms
 
-This project predicts potential diseases based on symptoms provided by the user. It uses machine learning techniques to analyze the input and suggest possible health conditions, encouraging early diagnosis and medical consultation.
+This project predicts diabetes based on symptoms provided by the user. It uses machine learning techniques to analyze the input and suggest possible diabetic condition.
 
 ## Overview
-This project applies machine learning to predict diseases from symptoms entered by the user. It serves as a tool for preliminary diagnosis and promotes proactive health management.
+This project applies machine learning to predict diabetes from symptoms entered by the user. It serves as a tool for preliminary diagnosis and promotes proactive health management.
 
 ## Features
-- Input multiple symptoms and predict possible diseases.
+- Input multiple symptoms and predict diabetes.
 - Provides detailed metrics for model performance.
-- Scalable to include additional symptoms and diseases.
+- Scalable to include additional symptoms.
 
 ## Technologies Used
-- **Programming Language:** Python
-- **Libraries:**
-  - `pandas` for data handling and manipulation.
-  - `sklearn` for machine learning:
-    - `train_test_split` for splitting data into training and testing sets.
-    - `LabelEncoder` for encoding categorical symptom variables.
-    - `RandomForestClassifier` for building the prediction model.
-    - `classification_report` for evaluating model performance.
+- *Programming Language:* Python
+- *Libraries:*
+  - *pandas:* For handling and manipulating the data.
+  - *numpy:* For numerical operations and data manipulation.
+  - *sklearn:* For implementing machine learning models:
+    - *StandardScaler:* For feature scaling.
+    - *train_test_split:* To split the data into training and testing sets.
+    - *svm (Support Vector Machine):* For building the predictive model.
+    - *accuracy_score:* For evaluating the performance of the model.
 
 ## Installation
 1. Clone the repository:
